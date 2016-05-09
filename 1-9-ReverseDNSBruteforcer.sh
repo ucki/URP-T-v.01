@@ -8,7 +8,7 @@ echo $word >./results/var.tmp;
 for target in $(cat ./results/online-IP.txt);do 
 server=$(cat ./results/var.tmp);
 #Wierd double loop .. well 
-nslookup $target $server >>./results/$server-DNSanswers.txt  & 
+nslookup $target $server -type=any |tee -a ./results/$server-DNSanswers.txt ./results/$target/$target-DNSAnswerby$server.txt  & 
 done 
 done
 rm ./results/var.tmp;
