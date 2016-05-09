@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo Onesixty bruteforcing 
+#onesixty
+onesixtyone -c ./results/community -i ./results/UDP161-IP.txt >./results/SNMP-onesixty.txt
