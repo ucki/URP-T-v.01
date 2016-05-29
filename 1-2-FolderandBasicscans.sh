@@ -3,6 +3,7 @@
 #Folder
 echo Folder per host
 for word in $(cat ./results/online-IP.txt);do mkdir ./results/$word  ;
+mkdir ./results/$word/loot  ;
 echo -n"">>./results/$word/$word-notes.txt; 
  done
 
