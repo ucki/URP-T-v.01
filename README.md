@@ -2,6 +2,7 @@
 
 
 NEW 24.06.2016 Added some more Webscans. Because this scans are quite intense to you machine, don't run the aggainst a huge targetlist. It can clog up your system quite fast. 
+To reduce the targets re run 1-1 and 1-2 scripts with one ip you want to test, this will reduce theload of all later tests. Of course, if you want your huge targetlist again rerun 1-1&1-2 or just copy your ip list files (all XXX-ip.txt stuff in the result folder) first before reducing your scope.
 
 
 New Version of https://github.com/ucki/URP
